@@ -11,6 +11,9 @@ and then in my head it had a little cast of animal crossing-like characters who 
 
 then your strava bragging is actually just having a virtual shelf of these .pngs of baked goods and tchotchkes that represent distance and deliveries made. maybe there's unique ones with special goals (did it while raining, did it after dark, did it with a friend, etc) and seasonal things depending on how elaborate you want to get.
 
+there is [a netlify pointed at this repo](https://main--papaya-cobbler-62edd4.netlify.app/), but it only works on browsers that actually have GPS access - my desktop doesn't display anything
+
+
 * * * * *
 
 as it stands there is exactly one index.html that pulls a JS map library called leaflet, and it does the 'find your position' + 'find a random valid position' thing on page load. so even in this state I guess technically it would be functional for my personal goals, but obviously it's not really a _game_ yet.
@@ -22,6 +25,7 @@ things to do at minimum:
 - allow re-rolls
 - some sort of success when you register your GPS making it to that point
 - log it as a running high score?
+- some error state pages and things for desktop, etc.
 
 things beyond that:
 
